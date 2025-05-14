@@ -7,7 +7,7 @@ from files.data_preprocess import Data_Preprocess
 from files.model import Model
 
 # Reading the data
-dp = Data_Preprocess(path="/isi/w/setty/Particle_ML/data/DEM_for_ML_raw_data_no_Lees-Edwards.tgz")
+dp = Data_Preprocess(path="raw_data_simple_periodic_BC.tgz")
 
 # Getting the inputs and outputs
 mode = "sin_cos"
