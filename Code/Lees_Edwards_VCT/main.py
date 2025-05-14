@@ -7,7 +7,7 @@ from files.data_preprocess import Data_Preprocess
 from files.model import Model
 
 # Reading the data
-dp = Data_Preprocess(path="/isi/w/setty/Particle_ML/data/DEM_for_ML_raw_data.tgz")
+dp = Data_Preprocess(path="raw_data_Lees-Edwards_BC.tgz")
 
 # Getting the inputs and outputs
 X, y, time_X, time_y, box_length = dp.get_data(output_timesteps=10)
